@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: penguindemo           # set this to your Amazon ECR repository name
   ECS_SERVICE: penguin_class                 # set this to your Amazon ECS service name
   ECS_CLUSTER: penguindemo                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: D:/MLOPS Training/aws_keys/penguin_task_def-revision3.json # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: .github/workflows/penguin_task_def-revision3.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: Pod1-penguin-Demo           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
